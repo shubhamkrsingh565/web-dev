@@ -69,7 +69,15 @@ web development learning series along with projects
   
   -  **`useEffect`**: Handle side effects (e.g., API calls, subscriptions) in functional components.
   
+      -  The `useEffect` hook allows you to perform side effects in your components.
+      -  Some examples of side effects are:
+            - Fetching data from API
+            - Directly updating the DOM
+            - Timers like setTimeOut and SetInterval 
+  
   -  **`useContext`**: Access context values without prop drilling.
+      -  `useContext` is a React Hook that allows you access data from any component without explicitly passing it down through props at every level.
+      -  `useContext` is used to managed Global data in the React App.
   
    ### Custom Hooks
   
